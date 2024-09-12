@@ -1,0 +1,33 @@
+{
+  "name": "micro-batching-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node-dev --respawn src/server.ts",
+    "test": "jest",
+    "docker:build": "docker-compose up --build -d",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.20.0",
+    "pg-promise": "11.9.1",
+    "ts-node-dev": "2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/jest": "29.5.12",
+    "@types/node": "22.5.4",
+    "@types/supertest": "6.0.2",
+    "jest": "29.7.0",
+    "supertest": "7.0.0",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.2"
+  }
+}
