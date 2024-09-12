@@ -79,7 +79,11 @@ npm run docker:build
   - Shutdown: `POST /shutdown`
 
 ### Test
-This project uses Jest as the test framework. To run tests, execute the following command:
+1. This project uses Jest as the test framework. To run tests, ensure you have all the required dependencies installed locally.
+```
+npm install
+```
+2. Execute the following command:
 ```
 npm run test
 ```
